@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab6_finish</string>
+    <string name="main_activity_name">Main Activity</string>
+    <string name="audio">Audio</string>
+    <string name="camera">Camera</string>
+    <string name="video">Video</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+</resources>
