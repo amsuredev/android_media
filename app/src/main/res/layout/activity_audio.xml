@@ -18,13 +18,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/record"
-            android:layout_marginRight="15dp">
+            android:layout_marginRight="15dp"
+            android:onClick="recordStart">
         </Button>
         <Button
             android:id="@+id/buttonStop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stop">
+            android:text="@string/stop"
+            android:onClick="recordStop">
         </Button>
     </LinearLayout>
     <LinearLayout
@@ -37,13 +39,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/play"
-            android:layout_marginRight="15dp">
+            android:layout_marginRight="15dp"
+            android:onClick="play">
         </Button>
         <Button
             android:id="@+id/buttonPause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pause">
+            android:text="@string/pause"
+            android:onClick="pause">
         </Button>
     </LinearLayout>
 </LinearLayout>

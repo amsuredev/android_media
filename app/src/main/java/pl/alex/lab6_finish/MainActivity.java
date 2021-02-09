@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.audio:
-                        //Toast.makeText(MainActivity.this, "audio", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "audio", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getBaseContext(), AudioActivity.class);
                         startActivity(intent);
                         break;
@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.camera:
                         Toast.makeText(MainActivity.this, "camera", Toast.LENGTH_SHORT).show();
+                        Intent intent_camera = new Intent(getBaseContext(), CameraActivity.class);
+                        startActivity(intent_camera);
                         break;
                 }
                 return false;
