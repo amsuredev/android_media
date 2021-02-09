@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.video:
                         Toast.makeText(MainActivity.this, "video", Toast.LENGTH_SHORT).show();
+                        Intent intentVideoUrisList = new Intent(getBaseContext(), ListCameraUrisActivity.class);
+                        startActivity(intentVideoUrisList);
                         break;
                     case R.id.camera:
                         Toast.makeText(MainActivity.this, "camera", Toast.LENGTH_SHORT).show();
